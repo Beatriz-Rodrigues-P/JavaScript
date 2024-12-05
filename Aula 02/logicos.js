@@ -24,7 +24,6 @@ if(isBlock){
     console.log("Usuário está ativo!")
 }else{
     console.log("Usuário está inativo. Contate o administrador!")
-    process.exit(0)
 }
 
 if(isAdmin || isGerente){
@@ -32,3 +31,5 @@ if(isAdmin || isGerente){
 }else{
     console.log("Acesso ao painel administrativo negado.")
 }
+
+process.exit(0)
