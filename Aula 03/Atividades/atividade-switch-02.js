@@ -37,7 +37,7 @@ switch(itens){
         console.log("Pedido invalido!")                   
 }
 
-//Conta para reajuste salarial
+//Conta para valor total
 valort=quantidade*preco
 
 console.log(`Pedido total: R$ ${valort.toFixed(2)}`)
